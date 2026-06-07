@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.DS_Store
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Demo output
+out/
+
+# Real config / secrets — never commit
+config.yml
+env.yml
+*-service-account.json
+*.env
+
+# Internal planning / agent docs — never publish (these retain the real
+# identifiers documented during genericization; keep them local only)
+docs/EXPLORATION_REPORT.md
+docs/IMPLEMENTATION_PLAN.md
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+MEMORY.md
+*.local.md
+.claude/

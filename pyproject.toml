@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "posecropper"
+version = "1.0.0"
+description = "Event-driven, pose-aware automatic catalog image cropping pipeline."
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["posecropper", "posecropper.catalog", "posecropper.io", "posecropper.cloud"]
+
+[tool.setuptools.package-data]
+posecropper = ["profiles/*.icc"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]

@@ -1,0 +1,13 @@
+# Cloud dependencies — required ONLY for the production Cloud Functions path
+# (cloud/functions.py, cloud/sync.py, catalog/bigquery.py, io/gcs.py).
+# The offline demo and test suite do NOT need these.
+google-cloud-storage
+google-cloud-bigquery
+google-cloud-secret-manager>=2.8.0
+pandas
+pandas-gbq
+gcsfs
+google-api-core
+google-api-python-client
+pydrive2
+oauth2client

@@ -1,0 +1,11 @@
+# Copy to config.yml (git-ignored) and fill in real values for the cloud path.
+# The offline demo does NOT use this file.
+PROJECT_ID: "your-gcp-project-id"
+GCP_SECRET_NAME: "YOUR_DRIVE_SA_SECRET"          # Secret Manager name holding the Drive service-account JSON (base64)
+SOURCE_BUCKET: "your-input-bucket"
+DESTINATION_BUCKET: "your-output-bucket"
+DESTINATION_DRIVE_FOLDER_ID: "YOUR_DRIVE_FOLDER_ID"
+
+# Genericized BigQuery catalog views (see posecropper/catalog/bigquery.py)
+CATALOG_VIEW_A: "catalog_views.item_catalog_a"
+CATALOG_VIEW_B: "catalog_views.item_catalog_b"

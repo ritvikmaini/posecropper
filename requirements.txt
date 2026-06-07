@@ -1,0 +1,6 @@
+# mediapipe is pinned to the last release that ships the classic `mp.solutions.pose`
+# API used by this project; newer wheels expose only the Tasks API. Python 3.10/3.11.
+mediapipe==0.10.14
+opencv-python
+numpy
+pillow
