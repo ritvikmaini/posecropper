@@ -8,6 +8,8 @@ Drop a studio photo into a cloud bucket and it detects the model's pose, looks u
 
 *Before → pose detection → after: the original studio frame, the 33-point MediaPipe overlay, and the delivered aspect-ratio-correct catalog crop.*
 
+📄 **[Project presentation (PDF)](docs/presentation.pdf)** — slide deck walking through the logic, setup, image-processing pipeline, and output structure.
+
 ---
 
 ## Production Outcome
