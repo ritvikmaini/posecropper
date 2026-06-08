@@ -1,6 +1,6 @@
-# posecropper
+# Automated Image Cropping Pipeline (GCP)
 
-**Event-driven, pose-aware automatic catalog image cropping for fashion e-commerce.**
+**`posecropper` — event-driven, pose-aware automatic catalog image cropping for fashion e-commerce.**
 
 Drop a studio photo into a cloud bucket and it detects the model's pose, looks up the garment category in a product database, picks the correct framing (full body, top, or bottom), and emits a fixed-aspect-ratio, color-managed crop — routing only the ambiguous cases to a human reviewer.
 
